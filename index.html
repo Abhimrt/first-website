@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Project</title>
+    <!---------------------------- css --------------------------------->
+    <link rel="stylesheet" href="style.css">
+    <!---------------- icons class --------------------------------------->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <header>
+
+        <!---------------------------- nav ----------------------------->
+        <nav id="menu">
+            <h1><a href="#">Web Page</a></h1>
+            <ul>
+                <i class="bi bi-x-lg" id="close" onclick="Close()"></i>
+                <li><a href="#"> Home</a> </li>
+                <li><a href="#ser"> Services </a> </li>
+                <li><a href="#fea"> Features</a> </li>
+                <li><a href="#about"> About</a> </li>
+                <li><a href=""> Contact</a> </li>
+            </ul>
+        </nav>
+        <i class="bi bi-list" id="open" onclick="Open()"></i>
+        <!----------------------------- header text ----------------------------->
+        <div class="header-text">
+            <h1>Lorem, Ipsum Dolor.</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, animi! Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            <div class="header-btn">
+                <button>Sign In</button>
+                <button onclick="openTour()">Take a Tour <i class="bi bi-chevron-down"></i></button>
+            </div>
+            <!-------------------------------- tour ------------------------------->
+            <div id="tour">
+                <i class="bi bi-x-lg" id="closeTour" onclick="CloseTour()"></i>
+                <div class="tour-box">
+                    <div id="tour-con">
+                        <h1>Lorem, ipsum dolor.</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas consequuntur molestiae ad accusamus deserunt eaque.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!---------------------------------- main ----------------------->
+    <main>
+        <!------------------------------ Services ---------------------------->
+
+        <div class="ser" id="ser">
+            <hr>
+            <h3 id="">Services</h3>
+            <hr>
+        </div>
+        <div class="service">
+            <div class="ser-col">
+                <h2>Maja</h2>
+                <div class="ser-caption">
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus, minus ullam ab corrupti officiis quas
+                    </p>
+                    <button>Know More</button>
+                </div>
+                <img src="images/ser-img1.png" alt="">
+            </div>
+            <div class="ser-col">
+                <h2>Karo</h2>
+                <div class="ser-caption">
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus, minus ullam ab corrupti officiis quas
+                    </p>
+                    <button>Know More</button>
+                </div>
+                <img src="images/ser-img2.png" alt="">
+            </div>
+            <div class="ser-col">
+                <h2>Bhai</h2>
+                <div class="ser-caption">
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus, minus ullam ab corrupti officiis quas
+                    </p>
+                    <button>Know More</button>
+                </div>
+                <img src="images/ser-img3.png" alt="">
+            </div>
+        </div>
+        <div class="main">
+            <!--------------------------------------- Features ------------------------->
+            <div class="container" id="fea">
+                <hr>
+                <h2>Features</h2>
+                <hr>
+                <div class="row">
+                    <div class="fea-txt">
+                        <div class="tl tl-left">
+                            <h3>Lorem, ipsum dolor.</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid quasi, voluptatem iure, ducimus voluptatum </p>
+                        </div>
+
+                        <div class="tl tl-left">
+                            <h3>Lorem, ipsum dolor.</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid quasi, voluptatem iure, ducimus voluptatum </p>
+                        </div>
+
+                        <div class="tl tl-left">
+                            <h3>Lorem, ipsum dolor.</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid quasi, voluptatem iure, ducimus voluptatum </p>
+                        </div>
+
+                        <div class="tl tl-left">
+                            <h3>Lorem, ipsum dolor.</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid quasi, voluptatem iure, ducimus voluptatum </p>
+                        </div>
+
+                    </div>
+                    <div class="fea-txt-middle">
+                        <img src="images/phone.png" alt="">
+                    </div>
+                    <div class="fea-txt">
+                        <div class="tl">
+                            <h3>Lorem, ipsum dolor.</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid quasi, voluptatem iure, ducimus voluptatum </p>
+                        </div>
+                        <div class="tl">
+                            <h3>Lorem, ipsum dolor.</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid quasi, voluptatem iure, ducimus voluptatum </p>
+                        </div>
+                        <div class="tl">
+                            <h3>Lorem, ipsum dolor.</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid quasi, voluptatem iure, ducimus voluptatum </p>
+                        </div>
+                        <div class="tl">
+                            <h3>Lorem, ipsum dolor.</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid quasi, voluptatem iure, ducimus voluptatum </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--------------------------------------------- About ---------------->
+        <div class="container" id="about">
+            <hr>
+            <h2>About</h2>
+            <hr>
+            <div class="row">
+                <div class="blog-temp">
+                    <img src="images/img1.jpg" width="80%" alt="">
+                    <h4>Lorem, ipsum.</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, tempora!</p>
+                    <div class="blog-social">
+                        <a href=""><i class="bi bi-facebook"></i></a>
+                        <a href=""><i class="bi bi-twitter"></i></a>
+                        <a href=""><i class="bi bi-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="blog-temp">
+                    <img src="images/img2.jpg" width="80%" alt="">
+                    <h4>Lorem, ipsum.</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, tempora!</p>
+                    <div class="blog-social">
+                        <a href=""><i class="bi bi-facebook"></i></a>
+                        <a href=""><i class="bi bi-twitter"></i></a>
+                        <a href=""><i class="bi bi-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="blog-temp">
+                    <img src="images/img3.jpg" width="80%" alt="">
+                    <h4>Lorem, ipsum.</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, tempora!</p>
+                    <div class="blog-social">
+                        <a href=""><i class="bi bi-facebook"></i></a>
+                        <a href=""><i class="bi bi-twitter"></i></a>
+                        <a href=""><i class="bi bi-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!------------------------------------- javascript -------------------------->
+    <script src="script.js"></script>
+</body>
+
+</html>
