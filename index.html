@@ -34,7 +34,7 @@
             <h1>Lorem, Ipsum Dolor.</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, animi! Lorem ipsum dolor sit amet consectetur adipisicing.</p>
             <div class="header-btn">
-                <button>Sign In</button>
+                <a href="#contact"><button>Ask something ?</button></a>
                 <button onclick="openTour()">Take a Tour <i class="bi bi-chevron-down"></i></button>
             </div>
             <!-------------------------------- tour ------------------------------->
@@ -190,18 +190,22 @@
         <div class="contact">
             <div class="con-row1">
                 <form action="">
-                    <input type="text" placeholder="Name..">
-                    <input type="email" placeholder="Email..">
-                    <textarea name="" id="" cols="10" rows="2" placeholder="Description."></textarea>
-                    <button>Submit</button>
+                    <input type="text" placeholder="Name.." class="input" required>
+                    <input type="email" placeholder="Email.." class="input" required>
+                    <textarea name="" id="" cols="10" rows="2" placeholder="Description." required></textarea>
+                    <input type="submit" class="button" onclick="Submit()">
                 </form>
             </div>
             <div class="con-row2">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3490.4831187980676!2d77.63881451459439!3d28.973051675339242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390c668fdea4d87f%3A0x8795def814a486e7!2sMIET%20College!5e0!3m2!1sen!2sin!4v1632031357891!5m2!1sen!2sin"
-                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
         </div>
     </main>
+    <!------------------------- footer --------------------------->
+    <footer>
+        <h5>Copyright &COPY; ABHISHEK SINGHAL</h5>
+    </footer>
     <!------------------------------------- javascript -------------------------->
     <script src="script.js"></script>
 </body>
