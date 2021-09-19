@@ -37,3 +37,8 @@ function CloseTour() {
     document.body.style.overflow = "auto";
     // tourBox.style.bottom = "-50%"
 }
+
+
+function Submit() {
+    alert("Your Response was submitted");
+}
